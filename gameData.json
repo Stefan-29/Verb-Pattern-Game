@@ -1,0 +1,167 @@
+{
+    "introduction": {
+        "title": "Let's Learn About Verb Patterns! 📚",
+        "rules": [
+            {
+                "title": "Rule #1: to-infinitive",
+                "description": "We use <strong>to-infinitive</strong> after these verbs:",
+                "examples": ["want", "need", "try", "would like", "forget", "learn", "remember"],
+                "sampleSentence": "I <strong>want to play</strong> games."
+            },
+            {
+                "title": "Rule #2: -ing form",
+                "description": "We use <strong>verb + -ing</strong> after these verbs:",
+                "examples": ["enjoy", "can't stand", "don't mind", "love", "prefer", "stop"],
+                "sampleSentence": "I <strong>enjoy playing</strong> games."
+            }
+        ]
+    },
+    "activities": [
+        {
+            "id": "multipleChoice",
+            "title": "Verb Detective: Choose the Right Verb Form 🕵️‍♀️",
+            "instructions": "Select the correct form of the verb:",
+            "points": 20,
+            "questions": [
+              {
+                "id": "q1",
+                "text": "I love <span class='fill-blank'>_______</span> stories before bedtime. 🛏️📖",
+                "options": [
+                  { "text": "reading", "correct": true },
+                  { "text": "to read", "correct": false }
+                ]
+              },
+              {
+                "id": "q2",
+                "text": "Mom wants me <span class='fill-blank'>_______</span> my room. 🧹",
+                "options": [
+                  { "text": "cleaning", "correct": false },
+                  { "text": "to clean", "correct": true }
+                ]
+              },
+              {
+                "id": "q3",
+                "text": "He enjoys <span class='fill-blank'>_______</span> his pet hamster. 🐹",
+                "options": [
+                  { "text": "taking care of", "correct": true },
+                  { "text": "to take care of", "correct": false }
+                ]
+              },
+              {
+                "id": "q4",
+                "text": "We decided <span class='fill-blank'>_______</span> a science project. 🔬",
+                "options": [
+                  { "text": "doing", "correct": false },
+                  { "text": "to do", "correct": true }
+                ]
+              },
+              {
+                "id": "q5",
+                "text": "They can't stand <span class='fill-blank'>_______</span> early. ⏰",
+                "options": [
+                  { "text": "waking up", "correct": true },
+                  { "text": "to wake up", "correct": false }
+                ]
+              },
+              {
+                "id": "q6",
+                "text": "I forgot <span class='fill-blank'>_______</span> the door. 🚪🔒",
+                "options": [
+                  { "text": "to lock", "correct": true },
+                  { "text": "locking", "correct": false }
+                ]
+              },
+              {
+                "id": "q7",
+                "text": "My sister enjoys <span class='fill-blank'>_______</span> with clay. 🧱",
+                "options": [
+                  { "text": "to play", "correct": false },
+                  { "text": "playing", "correct": true }
+                ]
+              },
+              {
+                "id": "q8",
+                "text": "I want <span class='fill-blank'>_______</span> better in math. ➕",
+                "options": [
+                  { "text": "to do", "correct": true },
+                  { "text": "doing", "correct": false }
+                ]
+              },
+              {
+                "id": "q9",
+                "text": "She promised <span class='fill-blank'>_______</span> the dishes. 🍽️",
+                "options": [
+                  { "text": "to wash", "correct": true },
+                  { "text": "washing", "correct": false }
+                ]
+              },
+              {
+                "id": "q10",
+                "text": "We started <span class='fill-blank'>_______</span> when the bell rang. 🔔",
+                "options": [
+                  { "text": "to run", "correct": true },
+                  { "text": "running", "correct": false }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "fillBlanks",
+            "title": "Activity 2: Maya’s Day at School 🏫📱",
+            "instructions": "Type the correct verb forms into the blanks:",
+            "points": 15,
+            "story": {
+              "title": "Maya, 9",
+              "text": "Maya loves {listening} (listen) to music in the morning. She tries {to finish} (finish) her homework before school. In class, she avoids {talking} (talk) too much and promises {to help} (help) her friends. At break time, she enjoys {playing} (play) games on her phone. She always remembers {to charge} (charge) it at night.",
+              "blanks": [
+                { "id": "blank1", "verb": "listen", "answer": "listening" },
+                { "id": "blank2", "verb": "finish", "answer": "to finish" },
+                { "id": "blank3", "verb": "talk", "answer": "talking" },
+                { "id": "blank4", "verb": "help", "answer": "to help" },
+                { "id": "blank5", "verb": "play", "answer": "playing" },
+                { "id": "blank6", "verb": "charge", "answer": "to charge" }
+              ]
+            }
+          }
+          ,
+          {
+            "id": "habits",
+            "title": "Activity 4: Tell Us Your Phone Habits 📱💬",
+            "instructions": "Choose the answer that fits you best!",
+            "points": 5,
+            "questions": [
+              {
+                "id": "habit1",
+                "text": "I use my phone to:",
+                "options": ["play games", "record videos", "learn English"]
+              },
+              {
+                "id": "habit2",
+                "text": "I enjoy:",
+                "options": ["drawing on my tablet", "listening to music", "watching cartoons"]
+              },
+              {
+                "id": "habit3",
+                "text": "I try to avoid:",
+                "options": ["using my phone too much", "forgetting my charger", "watching too late"]
+              },
+              {
+                "id": "habit4",
+                "text": "I usually forget to:",
+                "options": ["turn off my screen", "set an alarm", "charge my phone"]
+              },
+              {
+                "id": "habit5",
+                "text": "I want to start:",
+                "options": ["taking notes on my phone", "drawing digitally", "doing homework online"]
+              },
+              {
+                "id": "habit6",
+                "text": "I can't stand:",
+                "options": ["laggy internet", "boring apps", "loud game sounds"]
+              }
+            ]
+          }
+          
+    ]
+}
